@@ -16,7 +16,7 @@ api = Api(app)
 
 class Menu(Resource):
     def get(self):
-        conn = db_connect.connect()  # connect to database
+        conn = db_connect.connect()
         query = conn.execute(
             "SELECT title, description FROM menu ORDER BY RANDOM() LIMIT 1;"
         )
