@@ -1,6 +1,6 @@
 # guyfieribot
 
-Slack bot that responds as the Mayor of Flavortown
+🔥 Slack bot that responds as the Mayor of Flavortown 🔥
 
 ## Install dev environment
 
