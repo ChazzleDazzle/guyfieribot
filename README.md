@@ -10,6 +10,8 @@ This will install python requirements to your virtual environment, and migrate a
 
 ## Run locally
 
+First, read the previous section, and install the dev environment.
+
 Run `python guyfieribot.py`.
 
 Go to: [http://127.0.0.1:5002/flavortown](http://127.0.0.1:5002/flavortown)
