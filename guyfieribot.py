@@ -4,9 +4,7 @@ from flask import Flask, request, jsonify
 from flask_restful import Resource, Api
 from sqlalchemy import create_engine
 from json import dumps
-import slack
 import requests
-from pyquery import PyQuery
 
 
 db_connect = create_engine("sqlite:///flavortown.db")
